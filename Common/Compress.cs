@@ -12,6 +12,18 @@ namespace bfbd.Common
     /// <remarks>2015/01/18</remarks>
     public static class CompressExtension
     {
+        public static string Compress(this string str)
+        {
+            var data = Encoding.UTF8.GetBytes(str).Compress();
+            return Convert.ToBase64String(data);
+        }
+
+        public static string Decompress(this string str)
+        {
+            var data = Convert.FromBase64String(str);
+            return Encoding.UTF8.GetString(data.Decompress());
+        }
+
         public static byte[] Compress(this byte[] data)
         {
             using (MemoryStream ms = new MemoryStream())
