@@ -8,11 +8,11 @@ using System.Diagnostics;
 
 namespace bfbd.Common.Tasks
 {
-	/// <summary>
-	/// 周期性任务
-	/// </summary>
-	/// <remarks>2015/1/21</remarks>
-	partial class PeriodTask : PeriodTaskBase
+    /// <summary>
+    /// 周期性任务
+    /// </summary>
+    /// <remarks>2015/1/21</remarks>
+    public partial class PeriodTask : PeriodTaskBase
 	{
 		#region Task Implement
 
@@ -144,7 +144,7 @@ namespace bfbd.Common.Tasks
 
 	#region Task Exception
 
-	class TaskExceptionArgs : EventArgs
+	public class TaskExceptionArgs : EventArgs
 	{
 		public string TaskName { get; private set;}
 		public object State { get; private set; }
