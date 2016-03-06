@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "bfbd.MiniWeb", "MiniWeb\bfbd.MiniWeb.csproj", "{B1D1EC08-A27C-497D-86F5-A6E34E68AF37}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "bfbd.Common", "Common\bfbd.Common.csproj", "{AB247DD7-A1C8-4C7A-B941-6D83A4ABF4D7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GPS.Monitor", "GPSMonitor\GPS.Monitor.csproj", "{20EAEE56-B0EF-42C0-8D6E-D3A4459CEBC3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B1D1EC08-A27C-497D-86F5-A6E34E68AF37}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1D1EC08-A27C-497D-86F5-A6E34E68AF37}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1D1EC08-A27C-497D-86F5-A6E34E68AF37}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1D1EC08-A27C-497D-86F5-A6E34E68AF37}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB247DD7-A1C8-4C7A-B941-6D83A4ABF4D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB247DD7-A1C8-4C7A-B941-6D83A4ABF4D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB247DD7-A1C8-4C7A-B941-6D83A4ABF4D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB247DD7-A1C8-4C7A-B941-6D83A4ABF4D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{20EAEE56-B0EF-42C0-8D6E-D3A4459CEBC3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20EAEE56-B0EF-42C0-8D6E-D3A4459CEBC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20EAEE56-B0EF-42C0-8D6E-D3A4459CEBC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20EAEE56-B0EF-42C0-8D6E-D3A4459CEBC3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
